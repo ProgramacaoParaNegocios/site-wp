@@ -20,9 +20,13 @@ services:
     ports:
       - "8080:80"
     restart: always
+    # volumes:
+      # - .:/usr/local/etc/php
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: root
+      UPLOAD_LIMIT: 202M
+    
 
   flyway:
     depends_on:
