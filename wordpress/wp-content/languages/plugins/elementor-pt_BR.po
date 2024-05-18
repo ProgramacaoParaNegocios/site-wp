@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-26 00:03:18+0000\n"
+"PO-Revision-Date: 2024-05-08 23:36:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: core/admin/admin-notices.php:466
+msgid "Automatically compress and optimize images, resize larger files, or convert to WebP. Optimize images individually, in bulk, or on upload."
+msgstr "Compacte e otimize imagens automaticamente, redimensione arquivos maiores ou converta-os em WebP. Otimize imagens individualmente, em massa ou no envio."
+
+#: core/admin/admin-notices.php:465
+msgid "Speed up your website with Image Optimizer by Elementor"
+msgstr "Use o Image Optimizer by Elementor para acelerar seu site"
 
 #: modules/home/module.php:92
 msgid "Default Elementor menu page."
@@ -266,7 +274,8 @@ msgstr "Efeitos do mouse"
 msgid "Scrolling Effects"
 msgstr "Efeitos de rolagem"
 
-#: includes/controls/gallery.php:123 includes/controls/media.php:273
+#: core/admin/admin-notices.php:461 includes/controls/gallery.php:123
+#: includes/controls/media.php:273
 msgid "Install Plugin"
 msgstr "Instalar plugin"
 
@@ -670,11 +679,11 @@ msgstr "Tipo de plano de fundo"
 msgid "Classic"
 msgstr "Clássico"
 
-#: core/admin/admin-notices.php:409
+#: core/admin/admin-notices.php:410
 msgid "Encountering issues after updating the version? Don’t worry - we’ve collected all the fixes for troubleshooting common issues. %1$sFind a solution%2$s"
 msgstr "Encontrando problemas após atualizar a versão? Não se preocupe - reunimos todas as correções para resolução de problemas comuns. %1$sEncontre uma solução%2$s"
 
-#: core/admin/admin-notices.php:407
+#: core/admin/admin-notices.php:408
 msgid "The version was updated successfully!"
 msgstr "A versão foi atualizada!"
 
@@ -788,8 +797,8 @@ msgstr "As alterações serão refletidas apenas após %1$s salvar %3$s e %2$s r
 msgid "Build Smart with AI"
 msgstr "Construa de forma inteligente com IA"
 
-#: includes/controls/groups/background.php:99 assets/js/ai-admin.js:7116
-#: assets/js/ai.js:7923
+#: includes/controls/groups/background.php:99 assets/js/ai-admin.js:7065
+#: assets/js/ai.js:7873
 msgid "Gradient"
 msgstr "Gradiente"
 
@@ -1045,7 +1054,7 @@ msgstr "Tablet no modo paisagem"
 msgid "Tablet Portrait"
 msgstr "Tablet no modo retrato"
 
-#: core/admin/admin-notices.php:457 core/admin/admin.php:989
+#: core/admin/admin-notices.php:517 core/admin/admin.php:989
 msgid "Dismiss this notice."
 msgstr "Dispensar esta notificação."
 
@@ -1358,15 +1367,15 @@ msgstr "Desempenho"
 msgid "There was a problem setting your site name."
 msgstr "Houve um problema ao definir o nome do seu site."
 
-#: core/admin/admin-notices.php:364
+#: core/admin/admin-notices.php:365
 msgid "Try it out"
 msgstr "Experimente"
 
-#: core/admin/admin-notices.php:361
+#: core/admin/admin-notices.php:362
 msgid "With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed."
 msgstr "Com nossos recursos experimentais de aumento de velocidade, você pode ir mais rápido do que nunca. Procure pelo rótulo \"Desempenho\" em nossa página \"Experimentos\" e ative esses experimentos para melhorar a velocidade de carregamento do seu site."
 
-#: core/admin/admin-notices.php:360
+#: core/admin/admin-notices.php:361
 msgid "Improve your site’s performance score."
 msgstr "Melhore a pontuação de desempenho do seu site."
 
@@ -1622,14 +1631,14 @@ msgid "Text Stroke"
 msgstr "Traço do texto"
 
 #: includes/admin-templates/beta-tester.php:53 assets/js/ai-admin.js:5253
-#: assets/js/ai-admin.js:10473 assets/js/ai-layout.js:3113
-#: assets/js/ai-layout.js:6021 assets/js/ai.js:6060 assets/js/ai.js:11280
+#: assets/js/ai-admin.js:10384 assets/js/ai-layout.js:3113
+#: assets/js/ai-layout.js:6021 assets/js/ai.js:6061 assets/js/ai.js:11192
 msgid "Privacy Policy"
 msgstr "Política de privacidade"
 
 #: includes/admin-templates/beta-tester.php:48 assets/js/ai-admin.js:5249
-#: assets/js/ai-admin.js:10469 assets/js/ai-layout.js:3109
-#: assets/js/ai-layout.js:6017 assets/js/ai.js:6056 assets/js/ai.js:11276
+#: assets/js/ai-admin.js:10380 assets/js/ai-layout.js:3109
+#: assets/js/ai-layout.js:6017 assets/js/ai.js:6057 assets/js/ai.js:11188
 msgid "Terms of Service"
 msgstr "Termos de serviço"
 
@@ -2126,15 +2135,15 @@ msgstr "Tela ampla (widescreen)"
 msgid "Database update process is running in the background. Taking a while?"
 msgstr "O processo de atualização do banco de dados está sendo executado em segundo plano. Está demorando?"
 
-#: core/admin/admin-notices.php:324
+#: core/admin/admin-notices.php:325
 msgid "With Elementor Pro, you can control user access and make sure no one messes up your design."
 msgstr "Com o Elementor Pro, você pode controlar o acesso do usuário e garantir que ninguém bagunce o seu design."
 
-#: core/admin/admin-notices.php:323
+#: core/admin/admin-notices.php:324
 msgid "Managing a multi-user site?"
 msgstr "Gerenciando um site com vários usuários?"
 
-#: core/admin/admin-notices.php:234
+#: core/admin/admin-notices.php:235
 msgid "Love using Elementor?"
 msgstr "Gostando de usar o Elementor?"
 
@@ -2175,7 +2184,7 @@ msgstr "Exportar um kit de modelo"
 msgid "Design sites faster with a template kit that contains some or all components of a complete site, like templates, content & site settings.%1$sYou can import a kit and apply it to your site, or export the elements from this site to be used anywhere else. %2$s"
 msgstr "Crie sites mais rapidamente com um kit de modelos que contém alguns ou todos os componentes de um site completo, como modelos, conteúdo e configurações do site. %1$sVocê pode importar um kit e aplicá-lo ao seu site, ou exportar os elementos deste site para serem usados em qualquer outro lugar. %2$s"
 
-#: app/modules/import-export/module.php:133 core/admin/admin-notices.php:369
+#: app/modules/import-export/module.php:133 core/admin/admin-notices.php:370
 #: core/editor/editor.php:614 core/experiments/manager.php:341
 #: core/experiments/manager.php:357 core/experiments/manager.php:374
 #: core/experiments/manager.php:391 core/experiments/manager.php:428
@@ -2584,7 +2593,7 @@ msgstr "Ajuste do objeto"
 msgid "Download"
 msgstr "Baixar"
 
-#: core/admin/admin-notices.php:218 includes/settings/settings-page.php:380
+#: core/admin/admin-notices.php:219 includes/settings/settings-page.php:380
 msgid "Become a super contributor by opting in to share non-sensitive plugin data and to receive periodic email updates from us."
 msgstr "Torne-se um super colaborador ao optar por compartilhar dados não confidenciais do plugin e receber as nossas atualizações periódicas por e-mail."
 
@@ -2815,7 +2824,7 @@ msgid "%s Widget"
 msgstr "Widget %s"
 
 #: core/experiments/manager.php:142 includes/editor-templates/global.php:29
-#: assets/js/ai-admin.js:5654 assets/js/ai.js:6461 assets/js/app.js:7894
+#: assets/js/ai-admin.js:5654 assets/js/ai.js:6462 assets/js/app.js:7894
 #: assets/js/editor.js:46873
 msgid "Back"
 msgstr "Voltar"
@@ -3584,13 +3593,13 @@ msgstr "Mostrar/ocultar painel"
 msgid "Go To"
 msgstr "Acessar"
 
-#: includes/editor-templates/hotkeys.php:32 assets/js/ai-admin.js:8917
-#: assets/js/ai.js:9724
+#: includes/editor-templates/hotkeys.php:32 assets/js/ai-admin.js:8866
+#: assets/js/ai.js:9674
 msgid "Redo"
 msgstr "Refazer"
 
-#: includes/editor-templates/hotkeys.php:24 assets/js/ai-admin.js:8906
-#: assets/js/ai.js:9713 assets/js/kit-elements-defaults-editor.js:236
+#: includes/editor-templates/hotkeys.php:24 assets/js/ai-admin.js:8855
+#: assets/js/ai.js:9663 assets/js/kit-elements-defaults-editor.js:236
 msgid "Undo"
 msgstr "Desfazer"
 
@@ -3645,7 +3654,7 @@ msgstr "Conectado."
 #: core/common/modules/connect/connect-menu-item.php:28
 #: assets/js/ai-admin.js:849 assets/js/ai-admin.js:5263
 #: assets/js/ai-layout.js:1442 assets/js/ai-layout.js:3123 assets/js/ai.js:1388
-#: assets/js/ai.js:6070
+#: assets/js/ai.js:6071
 msgid "Connect"
 msgstr "Conectar"
 
@@ -3749,25 +3758,25 @@ msgstr "Matiz"
 msgid "Debug Bar"
 msgstr "Barra de depuração"
 
-#: core/admin/admin-notices.php:285
+#: core/admin/admin-notices.php:286
 msgid "Hide Notification"
 msgstr "Ocultar notificação"
 
-#: core/admin/admin-notices.php:279
+#: core/admin/admin-notices.php:280
 msgid "Happy To Help"
 msgstr "Feliz em ajudar"
 
-#: core/admin/admin-notices.php:276
+#: core/admin/admin-notices.php:277
 msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
 msgstr "Você criou mais de 10 páginas com o Elementor. Ótimo trabalho! Se você puder, dedique um minuto para nos ajudar deixando uma avaliação de cinco estrelas no WordPress.org."
 
-#: core/admin/admin-notices.php:275
+#: core/admin/admin-notices.php:276
 msgid "Congrats!"
 msgstr "Parabéns!"
 
 #: core/kits/documents/tabs/settings-lightbox.php:76 includes/frontend.php:1368
 #: includes/widgets/google-maps.php:152 assets/js/ai-admin.js:6075
-#: assets/js/ai-admin.js:6078 assets/js/ai.js:6882 assets/js/ai.js:6885
+#: assets/js/ai-admin.js:6078 assets/js/ai.js:6883 assets/js/ai.js:6886
 msgid "Zoom"
 msgstr "Zoom"
 
@@ -4471,7 +4480,7 @@ msgstr "Algo deu errado. Clique em \"Saiba mais\" e siga cada uma das etapas par
 msgid "The preview could not be loaded"
 msgstr "A pré-visualização não pôde ser carregada"
 
-#: core/admin/admin-notices.php:147 core/admin/admin-notices.php:182
+#: core/admin/admin-notices.php:148 core/admin/admin-notices.php:183
 msgid "Update Notification"
 msgstr "Notificação de atualização"
 
@@ -5142,7 +5151,7 @@ msgstr "%s estão desativados"
 msgid "Update changes to page"
 msgstr "Atualizar alterações na página"
 
-#: core/admin/admin-notices.php:242
+#: core/admin/admin-notices.php:243
 msgid "No thanks"
 msgstr "Não"
 
@@ -5166,7 +5175,7 @@ msgstr "Estique a seção até a largura total da página usando JS."
 msgid "Stretch Section"
 msgstr "Esticar seção"
 
-#: core/admin/admin-notices.php:231
+#: core/admin/admin-notices.php:232
 msgid "Learn more."
 msgstr "Saiba mais."
 
@@ -5268,7 +5277,7 @@ msgstr "Voltar à biblioteca"
 #: includes/editor-templates/templates.php:178
 #: includes/editor-templates/templates.php:202
 #: includes/editor-templates/templates.php:216 assets/js/ai-admin.js:5334
-#: assets/js/ai.js:6141 assets/js/editor.js:8572
+#: assets/js/ai.js:6142 assets/js/editor.js:8572
 msgid "Insert"
 msgstr "Inserir"
 
@@ -5309,7 +5318,7 @@ msgid "If you want to modify the source code of your theme, we recommend using a
 msgstr "Se quiser modificar o código-fonte do seu tema, recomendamos o uso de um <a href=\"%s\">tema filho (descendente)</a>."
 
 #: app/modules/import-export/module.php:152
-#: app/modules/import-export/module.php:164 core/admin/admin-notices.php:328
+#: app/modules/import-export/module.php:164 core/admin/admin-notices.php:329
 #: modules/apps/admin-apps-page.php:184 modules/safe-mode/module.php:375
 #: modules/safe-mode/module.php:384
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:106
@@ -5492,19 +5501,19 @@ msgstr "Encontrei um plugin melhor"
 msgid "I no longer need the plugin"
 msgstr "Não preciso mais do plugin"
 
-#: core/admin/admin-notices.php:143 core/admin/admin-notices.php:151
+#: core/admin/admin-notices.php:144 core/admin/admin-notices.php:152
 #: core/base/db-upgrades-manager.php:97
 msgid "Update Now"
 msgstr "Atualizar agora"
 
 #. translators: %s: Elementor version.
-#: core/admin/admin-notices.php:138
+#: core/admin/admin-notices.php:139
 msgid "View Elementor version %s details"
 msgstr "Ver detalhes da versão %s do Elementor"
 
 #. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
 #. Update URL, 5: Accessibility text.
-#: core/admin/admin-notices.php:134
+#: core/admin/admin-notices.php:135
 msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
 msgstr "Há uma nova versão disponível do Elementor Page Builder. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">Ver detalhes da versão %3$s</a> ou <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">atualizar agora</a>."
 
@@ -5523,7 +5532,7 @@ msgstr "Colar"
 #: includes/elements/section.php:529 includes/widgets/accordion.php:304
 #: includes/widgets/accordion.php:475 includes/widgets/common.php:676
 #: includes/widgets/toggle.php:336 includes/widgets/toggle.php:499
-#: assets/js/ai-admin.js:7112 assets/js/ai.js:7919
+#: assets/js/ai-admin.js:7061 assets/js/ai.js:7869
 msgid "Background"
 msgstr "Plano de fundo"
 
@@ -5965,8 +5974,8 @@ msgid "Primary Color"
 msgstr "Cor primária"
 
 #: includes/widgets/icon-box.php:130 includes/widgets/icon.php:142
-#: includes/widgets/social-icons.php:263 assets/js/ai-admin.js:7166
-#: assets/js/ai.js:7973
+#: includes/widgets/social-icons.php:263 assets/js/ai-admin.js:7115
+#: assets/js/ai.js:7923
 msgid "Square"
 msgstr "Quadrado"
 
@@ -6346,7 +6355,7 @@ msgstr "Botão"
 #: core/common/modules/finder/categories/edit.php:30
 #: includes/controls/popover-toggle.php:68 assets/js/ai-admin.js:2131
 #: assets/js/ai-admin.js:6048 assets/js/ai-admin.js:6055 assets/js/ai.js:2670
-#: assets/js/ai.js:6855 assets/js/ai.js:6862
+#: assets/js/ai.js:6856 assets/js/ai.js:6863
 #: assets/js/element-manager-admin.js:2513
 #: assets/js/element-manager-admin.js:2570
 msgid "Edit"
@@ -6540,7 +6549,7 @@ msgstr "Itens da sanfona"
 msgid "Accordion"
 msgstr "Sanfona"
 
-#: core/admin/admin-notices.php:237
+#: core/admin/admin-notices.php:238
 msgid "Sure! I'd love to help"
 msgstr "Claro! Adoraria ajudar"
 
@@ -6616,7 +6625,8 @@ msgstr "Não"
 msgid "Yes"
 msgstr "Sim"
 
-#: includes/controls/gallery.php:123 includes/controls/media.php:273
+#: core/admin/admin-notices.php:458 includes/controls/gallery.php:123
+#: includes/controls/media.php:273
 msgid "Activate Plugin"
 msgstr "Ativar plugin"
 
@@ -6929,8 +6939,8 @@ msgid "Advanced"
 msgstr "Avançado"
 
 #: includes/managers/controls.php:330 includes/widgets/divider.php:363
-#: includes/widgets/icon-list.php:275 assets/js/ai-admin.js:6408
-#: assets/js/ai.js:7215 assets/js/editor.js:9609 assets/js/editor.js:36696
+#: includes/widgets/icon-list.php:275 assets/js/ai-admin.js:6357
+#: assets/js/ai.js:7165 assets/js/editor.js:9609 assets/js/editor.js:36696
 msgid "Style"
 msgstr "Estilo"
 
@@ -7201,12 +7211,12 @@ msgstr "Sólido"
 #: includes/widgets/image-gallery.php:152
 #: includes/widgets/image-gallery.php:170 includes/widgets/image.php:139
 #: includes/widgets/image.php:174 includes/widgets/video.php:585
-#: modules/nested-tabs/widgets/nested-tabs.php:384 assets/js/ai-admin.js:7098
-#: assets/js/ai-admin.js:7104 assets/js/ai-admin.js:7114
-#: assets/js/ai-admin.js:7125 assets/js/ai-admin.js:7136
-#: assets/js/ai-admin.js:7152 assets/js/ai.js:7905 assets/js/ai.js:7911
-#: assets/js/ai.js:7921 assets/js/ai.js:7932 assets/js/ai.js:7943
-#: assets/js/ai.js:7959
+#: modules/nested-tabs/widgets/nested-tabs.php:384 assets/js/ai-admin.js:7047
+#: assets/js/ai-admin.js:7053 assets/js/ai-admin.js:7063
+#: assets/js/ai-admin.js:7074 assets/js/ai-admin.js:7085
+#: assets/js/ai-admin.js:7101 assets/js/ai.js:7855 assets/js/ai.js:7861
+#: assets/js/ai.js:7871 assets/js/ai.js:7882 assets/js/ai.js:7893
+#: assets/js/ai.js:7909
 msgid "None"
 msgstr "Nenhum"
 
