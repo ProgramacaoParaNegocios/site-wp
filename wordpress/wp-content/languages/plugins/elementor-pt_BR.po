@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-08 23:36:07+0000\n"
+"PO-Revision-Date: 2024-05-19 23:06:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1386,7 +1386,7 @@ msgstr "Libere todo o poder dos recursos e ferramentas de criação de sites do 
 #: includes/editor-templates/hotkeys.php:191 assets/js/notes.js:140
 #: assets/js/notes.js:144 assets/js/notes.js:234
 msgid "Notes"
-msgstr "Notas"
+msgstr "Anotações"
 
 #: core/editor/notice-bar.php:41 core/editor/promotion.php:34
 #: includes/editor-templates/navigator.php:20
